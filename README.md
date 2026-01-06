@@ -92,7 +92,7 @@ CityEvents/
 
 ## Kluczowe funkcje techniczne
 
-### 🔄 Asynchroniczne operacje (Swift Concurrency)
+### Asynchroniczne operacje (Swift Concurrency)
 ```swift
 @MainActor
 class EventsViewModel: ObservableObject {
@@ -102,7 +102,7 @@ class EventsViewModel: ObservableObject {
 }
 ```
 
-### 💾 SwiftData dla ulubionych
+### SwiftData dla ulubionych
 ```swift
 @Model
 class FavoriteEvent {
@@ -113,7 +113,7 @@ class FavoriteEvent {
 }
 ```
 
-### ♾️ Paginacja i nieskończone przewijanie
+### Paginacja i nieskończone przewijanie
 ```swift
 func loadMoreIfNeeded(currentEvent: Event) async {
     guard let lastEvent = events.last,
@@ -123,7 +123,7 @@ func loadMoreIfNeeded(currentEvent: Event) async {
 }
 ```
 
-### ⚡ Reactive ViewModels z Combine
+### Reactive ViewModels z Combine
 ```swift
 @Published var selectedCity: String = "Warsaw" {
     didSet { 
