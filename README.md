@@ -1,4 +1,4 @@
-# City Events App
+# City Events
 
 Aplikacja do przeglądania wydarzeń w różnych miastach przy użyciu Ticketmaster API.
 
@@ -14,7 +14,7 @@ Cel: Projekt na "Programowanie urządzeń mobilnych"
 - **Filtrowanie po datach** - Zakres dat z zaawansowanymi filtrami
 - **Ulubione wydarzenia** - Zapisywanie z SwiftData (offline)
 - **Szczegóły wydarzeń** - Pełne informacje, miejsce, cena, link do biletów
-- **Pull-to-refresh** - Odświeżanie listy wydarzeń
+- **Pociągnij, aby odświeżyć** - Odświeżanie listy wydarzeń
 - **Nieskończone przewijanie** - Automatyczne ładowanie kolejnych stron
 - **Zakładka "O Aplikacji"** - Informacje o autorze i aplikacji
 - **Dark Mode** - Pełne wsparcie dla trybu ciemnego
@@ -179,10 +179,3 @@ Aplikacja używa [Ticketmaster Discovery API v2](https://developer.ticketmaster.
 - iPhone lub iPad z iOS 17.0 lub nowszym
 - Połączenie z internetem (dla pobierania wydarzeń)
 - ~50 MB miejsca na urządzeniu
-
-## Autorka
-
-**Oliwia Kołacz**  
-Projekt na "Programowanie urządzeń mobilnych"  
-Styczeń 2026
-
